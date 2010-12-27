@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* DDCalendarView */ = {
+		activeExec = 0;
+		executables = (
+			43C1C20312C914F20066500F /* DDCalendarView */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 43C1C20312C914F20066500F /* DDCalendarView */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* DDCalendarView */;
+		codeSenseManager = 43C1C21312C914FE0066500F /* Code sense */;
+		executables = (
+			43C1C20312C914F20066500F /* DDCalendarView */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315167986;
+			PBXWorkspaceStateSaveDate = 315167986;
+		};
+		sourceControlManager = 43C1C21212C914FE0066500F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	43C1C20312C914F20066500F /* DDCalendarView */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DDCalendarView;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	43C1C21212C914FE0066500F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	43C1C21312C914FE0066500F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
