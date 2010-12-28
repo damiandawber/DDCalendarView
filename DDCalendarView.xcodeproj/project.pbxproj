@@ -13,13 +13,15 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		43C1C24412C933200066500F /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C24212C933200066500F /* left-arrow.png */; };
-		43C1C24512C933200066500F /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C24312C933200066500F /* right-arrow.png */; };
 		43C1C2A412C964430066500F /* DayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C2A312C964430066500F /* DayButton.m */; };
 		43C1C35D12C99AEC0066500F /* DDCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C35C12C99AEC0066500F /* DDCalendarView.m */; };
 		43C1C36012C99B260066500F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C35F12C99B260066500F /* MainViewController.m */; };
 		43C1C53412CAA0A90066500F /* square-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C53212CAA0A90066500F /* square-paper.png */; };
 		43C1C53512CAA0A90066500F /* square-paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C53312CAA0A90066500F /* square-paper@2x.png */; };
+		43C1C55F12CAA82D0066500F /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C55D12CAA82D0066500F /* left-arrow.png */; };
+		43C1C56012CAA82D0066500F /* left-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C55E12CAA82D0066500F /* left-arrow@2x.png */; };
+		43C1C56512CAA8980066500F /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C56312CAA8980066500F /* right-arrow.png */; };
+		43C1C56612CAA8980066500F /* right-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C56412CAA8980066500F /* right-arrow@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +34,6 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* DDCalendarView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCalendarView_Prefix.pch; sourceTree = "<group>"; };
-		43C1C24212C933200066500F /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
-		43C1C24312C933200066500F /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
 		43C1C2A212C964430066500F /* DayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayButton.h; sourceTree = "<group>"; };
 		43C1C2A312C964430066500F /* DayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayButton.m; sourceTree = "<group>"; };
 		43C1C35B12C99AEC0066500F /* DDCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCalendarView.h; sourceTree = "<group>"; };
@@ -42,6 +42,10 @@
 		43C1C35F12C99B260066500F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		43C1C53212CAA0A90066500F /* square-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-paper.png"; sourceTree = "<group>"; };
 		43C1C53312CAA0A90066500F /* square-paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-paper@2x.png"; sourceTree = "<group>"; };
+		43C1C55D12CAA82D0066500F /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		43C1C55E12CAA82D0066500F /* left-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow@2x.png"; sourceTree = "<group>"; };
+		43C1C56312CAA8980066500F /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		43C1C56412CAA8980066500F /* right-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DDCalendarView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DDCalendarView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,10 +107,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				43C1C24212C933200066500F /* left-arrow.png */,
 				43C1C53212CAA0A90066500F /* square-paper.png */,
+				43C1C56312CAA8980066500F /* right-arrow.png */,
+				43C1C56412CAA8980066500F /* right-arrow@2x.png */,
 				43C1C53312CAA0A90066500F /* square-paper@2x.png */,
-				43C1C24312C933200066500F /* right-arrow.png */,
+				43C1C55D12CAA82D0066500F /* left-arrow.png */,
+				43C1C55E12CAA82D0066500F /* left-arrow@2x.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* DDCalendarView-Info.plist */,
 			);
@@ -184,10 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
-				43C1C24412C933200066500F /* left-arrow.png in Resources */,
-				43C1C24512C933200066500F /* right-arrow.png in Resources */,
 				43C1C53412CAA0A90066500F /* square-paper.png in Resources */,
 				43C1C53512CAA0A90066500F /* square-paper@2x.png in Resources */,
+				43C1C55F12CAA82D0066500F /* left-arrow.png in Resources */,
+				43C1C56012CAA82D0066500F /* left-arrow@2x.png in Resources */,
+				43C1C56512CAA8980066500F /* right-arrow.png in Resources */,
+				43C1C56612CAA8980066500F /* right-arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

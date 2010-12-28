@@ -1583,15 +1583,15 @@
 	43C1C35B12C99AEC0066500F /* DDCalendarView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {985, 704}}";
-			sepNavSelRange = "{839, 0}";
-			sepNavVisRange = "{199, 803}";
+			sepNavSelRange = "{537, 0}";
+			sepNavVisRange = "{200, 802}";
 		};
 	};
 	43C1C35C12C99AEC0066500F /* DDCalendarView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 2896}}";
-			sepNavSelRange = "{791, 0}";
-			sepNavVisRange = "{2151, 1166}";
+			sepNavIntBoundsRect = "{{0, 0}, {854, 3200}}";
+			sepNavSelRange = "{3513, 0}";
+			sepNavVisRange = "{3286, 460}";
 		};
 	};
 	43C1C35E12C99B260066500F /* MainViewController.h */ = {
@@ -1603,9 +1603,9 @@
 	};
 	43C1C35F12C99B260066500F /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {985, 1264}}";
+			sepNavIntBoundsRect = "{{0, 0}, {985, 1312}}";
 			sepNavSelRange = "{527, 0}";
-			sepNavVisRange = "{0, 1066}";
+			sepNavVisRange = "{1182, 719}";
 		};
 	};
 	43C1C36912C9B2120066500F /* PBXTextBookmark */ = {
