@@ -7,6 +7,7 @@
 //
 
 #import "DDCalendarViewAppDelegate.h"
+#import "DDCalendarViewController.h"
 
 @implementation DDCalendarViewAppDelegate
 
@@ -19,7 +20,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
+    viewController = [[DDCalendarViewController alloc] init];
+	
+	[window addSubview:viewController.view];
     [window makeKeyAndVisible];
     
     return YES;
@@ -75,6 +78,7 @@
 
 
 - (void)dealloc {
+	[viewController release];
     [window release];
     [super dealloc];
 }
