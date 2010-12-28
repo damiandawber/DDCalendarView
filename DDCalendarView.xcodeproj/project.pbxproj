@@ -18,6 +18,8 @@
 		43C1C2A412C964430066500F /* DayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C2A312C964430066500F /* DayButton.m */; };
 		43C1C35D12C99AEC0066500F /* DDCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C35C12C99AEC0066500F /* DDCalendarView.m */; };
 		43C1C36012C99B260066500F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C35F12C99B260066500F /* MainViewController.m */; };
+		43C1C53412CAA0A90066500F /* square-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C53212CAA0A90066500F /* square-paper.png */; };
+		43C1C53512CAA0A90066500F /* square-paper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C53312CAA0A90066500F /* square-paper@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		43C1C35C12C99AEC0066500F /* DDCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCalendarView.m; sourceTree = "<group>"; };
 		43C1C35E12C99B260066500F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		43C1C35F12C99B260066500F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		43C1C53212CAA0A90066500F /* square-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-paper.png"; sourceTree = "<group>"; };
+		43C1C53312CAA0A90066500F /* square-paper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "square-paper@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DDCalendarView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DDCalendarView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				43C1C24212C933200066500F /* left-arrow.png */,
+				43C1C53212CAA0A90066500F /* square-paper.png */,
+				43C1C53312CAA0A90066500F /* square-paper@2x.png */,
 				43C1C24312C933200066500F /* right-arrow.png */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* DDCalendarView-Info.plist */,
@@ -180,6 +186,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				43C1C24412C933200066500F /* left-arrow.png in Resources */,
 				43C1C24512C933200066500F /* right-arrow.png in Resources */,
+				43C1C53412CAA0A90066500F /* square-paper.png in Resources */,
+				43C1C53512CAA0A90066500F /* square-paper@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

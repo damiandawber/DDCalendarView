@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol DayButtonDelegate
+@protocol DayButtonDelegate <NSObject>
 - (void)dayButtonPressed:(id)sender;
 @end
 
@@ -17,7 +17,7 @@
 	NSDate *buttonDate;
 }
 
-@property (nonatomic, assign) id delegate;
+@property (nonatomic, assign) id <DayButtonDelegate> delegate;
 @property (nonatomic, copy) NSDate *buttonDate;
 
 - (id)buttonWithFrame:(CGRect)buttonFrame;

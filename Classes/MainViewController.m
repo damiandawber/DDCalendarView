@@ -7,7 +7,6 @@
 //
 
 #import "MainViewController.h"
-#import "DDCalendarView.h"
 
 @implementation MainViewController
 
@@ -15,12 +14,39 @@
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
 	UIView *appView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-	calendarView = [[DDCalendarView alloc] initWithFrame:appView.bounds fontName:@"Helvetica"];
+	calendarView = [[DDCalendarView alloc] initWithFrame:appView.bounds fontName:@"AmericanTypewriter" delegate:self];
 	
 	self.view = appView;
 	[appView release];
 	
 	[self.view addSubview: calendarView];
+}
+
+- (void)dayButtonPressed:(DayButton *)button {
+	//For the sake of example, we obtain the date from the button object
+	//and display the string in an alert view
+	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setTimeStyle:NSDateFormatterNoStyle];
+	[dateFormatter setDateStyle:NSDateFormatterLongStyle];
+	NSString *theDate = [dateFormatter stringFromDate:button.buttonDate];
+	[dateFormatter release];
+	
+	UIAlertView *dateAlert = [[UIAlertView alloc]
+								  initWithTitle:@"Date Pressed"
+								  message:theDate 
+								  delegate:self
+								  cancelButtonTitle:@"Ok"
+								  otherButtonTitles:nil];
+	[dateAlert show];
+	[dateAlert release];
+}
+
+- (void)nextButtonPressed {
+	NSLog(@"Next...");
+}
+
+- (void)prevButtonPressed {
+	NSLog(@"Prev...");
 }
 
 

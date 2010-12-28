@@ -9,20 +9,32 @@
 #import <UIKit/UIKit.h>
 #import "DayButton.h"
 
+@protocol DDCalendarViewDelegate <NSObject>
+- (void)dayButtonPressed:(DayButton *)button;
+
+@optional
+- (void)prevButtonPressed;
+- (void)nextButtonPressed;
+
+@end
+
 @interface DDCalendarView : UIView <DayButtonDelegate> {
+	id <DDCalendarViewDelegate> delegate;
 	NSString *calendarFontName;
+	UILabel *monthLabel;
+	NSMutableArray *dayButtons;
+	NSCalendar *calendar;
 	float calendarWidth;
 	float calendarHeight;
 	float cellWidth;
 	float cellHeight;
-	UILabel *monthLabel;
-	NSMutableArray *dayButtons;
 	int currentMonth;
 	int currentYear;
-	NSCalendar *calendar;
 }
 
-- (id)initWithFrame:(CGRect)frame fontName:(NSString *)fontName;
+@property(nonatomic, assign) id <DDCalendarViewDelegate> delegate;
+
+- (id)initWithFrame:(CGRect)frame fontName:(NSString *)fontName delegate:(id)theDelegate;
 - (void)updateCalendarForMonth:(int)month forYear:(int)year;
 - (void)drawDayButtons;
 - (void)prevBtnPressed:(id)sender;

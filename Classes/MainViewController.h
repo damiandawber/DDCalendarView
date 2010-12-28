@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DDCalendarView.h"
 
-@class DDCalendarView;
-
-@interface MainViewController : UIViewController {
+@interface MainViewController : UIViewController <DDCalendarViewDelegate> {
 	DDCalendarView *calendarView;
 }
 

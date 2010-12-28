@@ -18,7 +18,7 @@
 	self.frame = buttonFrame;
 	self.titleLabel.textAlignment = UITextAlignmentRight;
 	self.backgroundColor = [UIColor clearColor];
-	self.titleLabel.textColor = [UIColor lightGrayColor];
+	[self setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
 	
 	[self addTarget:delegate action:@selector(dayButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	

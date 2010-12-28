@@ -9,9 +9,12 @@
 #import "DDCalendarView.h"
 
 @implementation DDCalendarView
+@synthesize delegate;
 
-- (id)initWithFrame:(CGRect)frame fontName:(NSString *)fontName {
+- (id)initWithFrame:(CGRect)frame fontName:(NSString *)fontName delegate:(id)theDelegate {
 	if ((self = [super initWithFrame:frame])) {
+		self.delegate = theDelegate;
+		
 		//Initialise vars
         calendarFontName = fontName;
 		calendarWidth = frame.size.width;
@@ -20,7 +23,9 @@
 		cellHeight = frame.size.height / 8.0f;
 		
 		//View properties
-		self.backgroundColor = [UIColor darkGrayColor];
+		UIColor *bgPatternImage = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"square-paper.png"]];
+		self.backgroundColor = bgPatternImage;
+		[bgPatternImage release];
 		
 		//Set up the calendar header
 		UIButton *prevBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -38,7 +43,7 @@
 		monthLabel.font = [UIFont fontWithName:calendarFontName size:18];
 		monthLabel.textAlignment = UITextAlignmentCenter;
 		monthLabel.backgroundColor = [UIColor clearColor];
-		monthLabel.textColor = [UIColor orangeColor];
+		monthLabel.textColor = [UIColor blackColor];
 		
 		//Add the calendar header to view		
 		[self addSubview: prevBtn];
@@ -53,7 +58,8 @@
 			dayLabel.text = [NSString stringWithFormat:@"%s", days[i]];
 			dayLabel.textAlignment = UITextAlignmentCenter;
 			dayLabel.backgroundColor = [UIColor clearColor];
-			dayLabel.textColor = [UIColor whiteColor];
+			dayLabel.font = [UIFont fontWithName:calendarFontName size:16];
+			dayLabel.textColor = [UIColor darkGrayColor];
 			
 			[self addSubview:dayLabel];
 			[dayLabel release];
@@ -81,6 +87,7 @@
 		for(int j = 0; j < 7; j++) {
 			CGRect buttonFrame = CGRectMake(j*cellWidth, (i+2)*cellHeight, cellWidth, cellHeight);
 			DayButton *dayButton = [[DayButton alloc] buttonWithFrame:buttonFrame];
+			dayButton.titleLabel.font = [UIFont fontWithName:calendarFontName size:14];
 			dayButton.delegate = self;
 			
 			[dayButtons addObject:dayButton];
@@ -157,6 +164,10 @@
 	}
 	
 	[self updateCalendarForMonth:currentMonth forYear:currentYear];
+	
+	if ([self.delegate respondsToSelector:@selector(prevButtonPressed)]) {
+		[self.delegate prevButtonPressed];
+	}
 }
 
 - (void)nextBtnPressed:(id)sender {
@@ -168,11 +179,15 @@
 	}
 	
 	[self updateCalendarForMonth:currentMonth forYear:currentYear];
+	
+	if ([self.delegate respondsToSelector:@selector(nextButtonPressed)]) {
+		[self.delegate nextButtonPressed];
+	}
 }
 
 - (void)dayButtonPressed:(id)sender {
 	DayButton *dayButton = (DayButton *) sender;
-	[dayButton setTitle:@"D" forState:UIControlStateNormal];
+	[self.delegate dayButtonPressed:dayButton];
 }
 
 - (void)dealloc {
