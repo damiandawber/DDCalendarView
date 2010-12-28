@@ -278,9 +278,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>4</integer>
-									<integer>1</integer>
+									<integer>19</integer>
+									<integer>14</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -320,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DDCalendarView.m</string>
+								<string>left-arrow.png</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,23 +327,24 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DDCalendarView.m</string>
+										<string>left-arrow.png</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>43C1C55912CAA5FC0066500F</string>
+										<string>43C1C56F12CAA9600066500F</string>
 										<key>history</key>
 										<array>
 											<string>43C1C38912CA436C0066500F</string>
 											<string>43C1C38A12CA436C0066500F</string>
 											<string>43C1C52D12CA9EF00066500F</string>
-											<string>43C1C54612CAA4840066500F</string>
 											<string>43C1C54712CAA4840066500F</string>
 											<string>43C1C54812CAA4840066500F</string>
-											<string>43C1C54912CAA4840066500F</string>
 											<string>43C1C55712CAA5FC0066500F</string>
 											<string>43C1C55812CAA5FC0066500F</string>
-											<string>43C1C54F12CAA54A0066500F</string>
+											<string>43C1C56A12CAA9560066500F</string>
+											<string>43C1C56B12CAA9560066500F</string>
+											<string>43C1C56C12CAA9560066500F</string>
+											<string>43C1C56D12CAA9560066500F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -542,12 +542,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>43C1C55A12CAA5FD0066500F</string>
 		<string>43C1C28012C9502C0066500F</string>
 		<string>43C1C28112C9502C0066500F</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>43C1C21012C914FE0066500F</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/damiandawber/Documents/Development/Projects/DDCalendarView/DDCalendarView.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -932,7 +931,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
