@@ -3,15 +3,15 @@
 	1D3623240D0F684500981E51 /* DDCalendarViewAppDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {843, 501}}";
-			sepNavSelRange = "{221, 0}";
-			sepNavVisRange = "{0, 429}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{0, 417}";
 		};
 	};
 	1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1408}}";
-			sepNavSelRange = "{2649, 0}";
-			sepNavVisRange = "{282, 1358}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1376}}";
+			sepNavSelRange = "{536, 0}";
+			sepNavVisRange = "{314, 375}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* DDCalendarView */ = {
@@ -165,6 +165,19 @@
 			43C1C34512C984210066500F /* PBXTextBookmark */ = 43C1C34512C984210066500F /* PBXTextBookmark */;
 			43C1C34612C984210066500F /* PBXTextBookmark */ = 43C1C34612C984210066500F /* PBXTextBookmark */;
 			43C1C34712C984210066500F /* PBXTextBookmark */ = 43C1C34712C984210066500F /* PBXTextBookmark */;
+			43C1C34E12C998310066500F /* PBXTextBookmark */ = 43C1C34E12C998310066500F /* PBXTextBookmark */;
+			43C1C34F12C998310066500F /* XCBuildMessageTextBookmark */ = 43C1C34F12C998310066500F /* XCBuildMessageTextBookmark */;
+			43C1C35012C998310066500F /* PBXTextBookmark */ = 43C1C35012C998310066500F /* PBXTextBookmark */;
+			43C1C36912C9B2120066500F /* PBXTextBookmark */ = 43C1C36912C9B2120066500F /* PBXTextBookmark */;
+			43C1C36A12C9B2120066500F /* PBXTextBookmark */ = 43C1C36A12C9B2120066500F /* PBXTextBookmark */;
+			43C1C36B12C9B2120066500F /* XCBuildMessageTextBookmark */ = 43C1C36B12C9B2120066500F /* XCBuildMessageTextBookmark */;
+			43C1C36C12C9B2120066500F /* PBXTextBookmark */ = 43C1C36C12C9B2120066500F /* PBXTextBookmark */;
+			43C1C37312C9BA2D0066500F /* PBXTextBookmark */ = 43C1C37312C9BA2D0066500F /* PBXTextBookmark */;
+			43C1C37412C9BA2D0066500F /* XCBuildMessageTextBookmark */ = 43C1C37412C9BA2D0066500F /* XCBuildMessageTextBookmark */;
+			43C1C37512C9BA2D0066500F /* PBXTextBookmark */ = 43C1C37512C9BA2D0066500F /* PBXTextBookmark */;
+			43C1C37E12C9BCFD0066500F /* PBXTextBookmark */ = 43C1C37E12C9BCFD0066500F /* PBXTextBookmark */;
+			43C1C37F12C9BCFD0066500F /* XCBuildMessageTextBookmark */ = 43C1C37F12C9BCFD0066500F /* XCBuildMessageTextBookmark */;
+			43C1C38012C9BCFD0066500F /* PBXTextBookmark */ = 43C1C38012C9BCFD0066500F /* PBXTextBookmark */;
 		};
 		sourceControlManager = 43C1C21212C914FE0066500F /* Source Control */;
 		userBuildSettings = {
@@ -223,9 +236,9 @@
 	};
 	43C1C21612C923680066500F /* DDCalendarViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {843, 1760}}";
-			sepNavSelRange = "{2806, 0}";
-			sepNavVisRange = "{2287, 997}";
+			sepNavIntBoundsRect = "{{0, 0}, {843, 1808}}";
+			sepNavSelRange = "{2366, 467}";
+			sepNavVisRange = "{2193, 932}";
 		};
 	};
 	43C1C26412C938F70066500F /* PBXTextBookmark */ = {
@@ -233,7 +246,7 @@
 		fRef = 1D3623240D0F684500981E51 /* DDCalendarViewAppDelegate.h */;
 		name = "DDCalendarViewAppDelegate.h: 11";
 		rLen = 0;
-		rLoc = 221;
+		rLoc = 215;
 		rType = 0;
 		vrLen = 364;
 		vrLoc = 0;
@@ -243,7 +256,7 @@
 		fRef = 1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */;
 		name = "DDCalendarViewAppDelegate.m: 81";
 		rLen = 0;
-		rLoc = 2649;
+		rLoc = 2637;
 		rType = 0;
 		vrLen = 1349;
 		vrLoc = 283;
@@ -283,7 +296,7 @@
 		fRef = 1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */;
 		name = "DDCalendarViewAppDelegate.m: 81";
 		rLen = 0;
-		rLoc = 2649;
+		rLoc = 2637;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 282;
@@ -401,15 +414,15 @@
 	43C1C2A212C964430066500F /* DayButton.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {843, 501}}";
-			sepNavSelRange = "{423, 0}";
-			sepNavVisRange = "{0, 429}";
+			sepNavSelRange = "{410, 0}";
+			sepNavVisRange = "{0, 490}";
 		};
 	};
 	43C1C2A312C964430066500F /* DayButton.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {843, 736}}";
-			sepNavSelRange = "{652, 0}";
-			sepNavVisRange = "{170, 846}";
+			sepNavIntBoundsRect = "{{0, 0}, {843, 720}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{148, 860}";
 		};
 	};
 	43C1C2A912C965AD0066500F /* PBXTextBookmark */ = {
@@ -417,7 +430,7 @@
 		fRef = 1D3623240D0F684500981E51 /* DDCalendarViewAppDelegate.h */;
 		name = "DDCalendarViewAppDelegate.h: 11";
 		rLen = 0;
-		rLoc = 221;
+		rLoc = 215;
 		rType = 0;
 		vrLen = 429;
 		vrLoc = 0;
@@ -427,7 +440,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 16";
 		rLen = 0;
-		rLoc = 422;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 255;
 		vrLoc = 0;
@@ -447,7 +460,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 33";
 		rLen = 0;
-		rLoc = 975;
+		rLoc = 1007;
 		rType = 0;
 		vrLen = 698;
 		vrLoc = 41;
@@ -457,7 +470,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 16";
 		rLen = 0;
-		rLoc = 400;
+		rLoc = 432;
 		rType = 0;
 		vrLen = 644;
 		vrLoc = 41;
@@ -467,7 +480,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 19";
 		rLen = 0;
-		rLoc = 636;
+		rLoc = 668;
 		rType = 0;
 		vrLen = 687;
 		vrLoc = 38;
@@ -477,7 +490,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 19";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 41;
@@ -487,7 +500,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 16";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 478;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 0;
@@ -527,7 +540,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 16";
 		rLen = 0;
-		rLoc = 417;
+		rLoc = 478;
 		rType = 0;
 		vrLen = 285;
 		vrLoc = 0;
@@ -537,7 +550,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 25";
 		rLen = 0;
-		rLoc = 703;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 41;
@@ -547,7 +560,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 24";
 		rLen = 0;
-		rLoc = 703;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 699;
 		vrLoc = 41;
@@ -557,7 +570,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 31";
 		rLen = 0;
-		rLoc = 932;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 710;
 		vrLoc = 41;
@@ -567,7 +580,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 31";
 		rLen = 0;
-		rLoc = 932;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 710;
 		vrLoc = 41;
@@ -637,7 +650,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 31";
 		rLen = 0;
-		rLoc = 932;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 710;
 		vrLoc = 41;
@@ -647,7 +660,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 17";
 		rLen = 0;
-		rLoc = 421;
+		rLoc = 453;
 		rType = 0;
 		vrLen = 712;
 		vrLoc = 41;
@@ -657,7 +670,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 31";
 		rLen = 0;
-		rLoc = 932;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 41;
@@ -667,7 +680,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 18";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 709;
 		vrLoc = 41;
@@ -677,7 +690,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 31";
 		rLen = 0;
-		rLoc = 932;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 85;
@@ -687,7 +700,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 21";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 667;
 		rType = 0;
 		vrLen = 694;
 		vrLoc = 85;
@@ -697,7 +710,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 21";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 667;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 0;
@@ -737,7 +750,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 21";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 667;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 0;
@@ -747,7 +760,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 17";
 		rLen = 0;
-		rLoc = 421;
+		rLoc = 453;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 198;
@@ -757,7 +770,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 32";
 		rLen = 0;
-		rLoc = 932;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 172;
@@ -777,7 +790,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 29";
 		rLen = 0;
-		rLoc = 707;
+		rLoc = 739;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 0;
@@ -787,7 +800,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 19";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 667;
 		rType = 0;
 		vrLen = 603;
 		vrLoc = 148;
@@ -797,7 +810,7 @@
 		fRef = 43C1C21612C923680066500F /* DDCalendarViewController.m */;
 		name = "DDCalendarViewController.m: 91";
 		rLen = 0;
-		rLoc = 3355;
+		rLoc = 3420;
 		rType = 0;
 		vrLen = 1039;
 		vrLoc = 2020;
@@ -807,7 +820,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 18";
 		rLen = 0;
-		rLoc = 500;
+		rLoc = 532;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 85;
@@ -817,7 +830,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 30";
 		rLen = 0;
-		rLoc = 931;
+		rLoc = 963;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 85;
@@ -827,7 +840,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 19";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 667;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 41;
@@ -837,7 +850,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 31";
 		rLen = 0;
-		rLoc = 932;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 770;
 		vrLoc = 41;
@@ -847,7 +860,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 18";
 		rLen = 0;
-		rLoc = 352;
+		rLoc = 384;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 41;
@@ -857,7 +870,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 19";
 		rLen = 0;
-		rLoc = 400;
+		rLoc = 432;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 41;
@@ -867,7 +880,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 33";
 		rLen = 0;
-		rLoc = 931;
+		rLoc = 963;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 148;
@@ -877,7 +890,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 34";
 		rLen = 0;
-		rLoc = 931;
+		rLoc = 963;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 148;
@@ -887,7 +900,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 18";
 		rLen = 0;
-		rLoc = 400;
+		rLoc = 432;
 		rType = 0;
 		vrLen = 741;
 		vrLoc = 148;
@@ -897,7 +910,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 31";
 		rLen = 0;
-		rLoc = 808;
+		rLoc = 840;
 		rType = 0;
 		vrLen = 741;
 		vrLoc = 148;
@@ -907,7 +920,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 17";
 		rLen = 0;
-		rLoc = 422;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -917,7 +930,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 23";
 		rLen = 0;
-		rLoc = 634;
+		rLoc = 666;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 41;
@@ -927,7 +940,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 30";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 684;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 41;
@@ -937,7 +950,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 23";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 775;
 		vrLoc = 41;
@@ -947,7 +960,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 23";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 171;
@@ -957,7 +970,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 17";
 		rLen = 0;
-		rLoc = 422;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -987,7 +1000,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 23";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 0;
@@ -997,7 +1010,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 17";
 		rLen = 0;
-		rLoc = 422;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
@@ -1007,7 +1020,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 19";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 415;
 		rType = 0;
 		vrLen = 461;
 		vrLoc = 0;
@@ -1017,7 +1030,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 19";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 415;
 		rType = 0;
 		vrLen = 461;
 		vrLoc = 0;
@@ -1027,7 +1040,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 23";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 0;
@@ -1037,7 +1050,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 13";
 		rLen = 0;
-		rLoc = 219;
+		rLoc = 218;
 		rType = 0;
 		vrLen = 729;
 		vrLoc = 0;
@@ -1047,7 +1060,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 19";
 		rLen = 0;
-		rLoc = 354;
+		rLoc = 415;
 		rType = 0;
 		vrLen = 461;
 		vrLoc = 0;
@@ -1067,7 +1080,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 23";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 735;
 		vrLoc = 0;
@@ -1077,7 +1090,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 23";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 735;
 		vrLoc = 0;
@@ -1106,7 +1119,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 26";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 684;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 0;
@@ -1116,7 +1129,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 22";
 		rLen = 0;
-		rLoc = 423;
+		rLoc = 484;
 		rType = 0;
 		vrLen = 429;
 		vrLoc = 0;
@@ -1126,7 +1139,7 @@
 		fRef = 43C1C21612C923680066500F /* DDCalendarViewController.m */;
 		name = "DDCalendarViewController.m: 82";
 		rLen = 0;
-		rLoc = 2914;
+		rLoc = 2979;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 2218;
@@ -1174,7 +1187,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 22";
 		rLen = 0;
-		rLoc = 423;
+		rLoc = 484;
 		rType = 0;
 		vrLen = 429;
 		vrLoc = 0;
@@ -1184,7 +1197,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 26";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 684;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 0;
@@ -1234,7 +1247,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 26";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 684;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 172;
@@ -1244,7 +1257,7 @@
 		fRef = 43C1C2A212C964430066500F /* DayButton.h */;
 		name = "DayButton.h: 22";
 		rLen = 0;
-		rLoc = 423;
+		rLoc = 484;
 		rType = 0;
 		vrLen = 429;
 		vrLoc = 0;
@@ -1274,7 +1287,7 @@
 		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
 		name = "DayButton.m: 26";
 		rLen = 0;
-		rLoc = 652;
+		rLoc = 684;
 		rType = 0;
 		vrLen = 847;
 		vrLoc = 172;
@@ -1298,5 +1311,159 @@
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 2287;
+	};
+	43C1C34E12C998310066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43C1C21512C923680066500F /* DDCalendarViewController.h */;
+		name = "DDCalendarViewController.h: 12";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 305;
+		vrLoc = 100;
+	};
+	43C1C34F12C998310066500F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Type of property 'date' does not match type of ivar 'date'";
+		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 12;
+		rType = 1;
+	};
+	43C1C35012C998310066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
+		name = "DayButton.m: 13";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 144;
+	};
+	43C1C35B12C99AEC0066500F /* DDCalendarView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 501}}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	43C1C35C12C99AEC0066500F /* DDCalendarView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 1088}}";
+			sepNavSelRange = "{201, 0}";
+			sepNavVisRange = "{3, 1125}";
+		};
+	};
+	43C1C35E12C99B260066500F /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {843, 501}}";
+			sepNavSelRange = "{287, 0}";
+			sepNavVisRange = "{0, 296}";
+		};
+	};
+	43C1C35F12C99B260066500F /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {677, 960}}";
+			sepNavSelRange = "{456, 0}";
+			sepNavVisRange = "{255, 382}";
+		};
+	};
+	43C1C36912C9B2120066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43C1C2A312C964430066500F /* DayButton.m */;
+		name = "DayButton.m: 13";
+		rLen = 0;
+		rLoc = 198;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 144;
+	};
+	43C1C36A12C9B2120066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* DDCalendarViewAppDelegate.h */;
+		name = "DDCalendarViewAppDelegate.h: 15";
+		rLen = 0;
+		rLoc = 313;
+		rType = 0;
+		vrLen = 258;
+		vrLoc = 164;
+	};
+	43C1C36B12C9B2120066500F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'viewController' undeclared (first use in this function)";
+		fRef = 1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 22;
+		rType = 1;
+	};
+	43C1C36C12C9B2120066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */;
+		name = "DDCalendarViewAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 536;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 314;
+	};
+	43C1C37312C9BA2D0066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */;
+		name = "DDCalendarViewAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 536;
+		rType = 0;
+		vrLen = 375;
+		vrLoc = 314;
+	};
+	43C1C37412C9BA2D0066500F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No '-initWithFrame:fontName:' method found";
+		fRef = 43C1C35F12C99B260066500F /* MainViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 17;
+		rType = 1;
+	};
+	43C1C37512C9BA2D0066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43C1C35F12C99B260066500F /* MainViewController.m */;
+		name = "MainViewController.m: 18";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 255;
+	};
+	43C1C37E12C9BCFD0066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43C1C35F12C99B260066500F /* MainViewController.m */;
+		name = "MainViewController.m: 18";
+		rLen = 0;
+		rLoc = 456;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 255;
+	};
+	43C1C37F12C9BCFD0066500F /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'bgView' undeclared (first use in this function)";
+		fRef = 43C1C35C12C99AEC0066500F /* DDCalendarView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 55;
+		rType = 1;
+	};
+	43C1C38012C9BCFD0066500F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43C1C35C12C99AEC0066500F /* DDCalendarView.m */;
+		name = "DDCalendarView.m: 56";
+		rLen = 0;
+		rLoc = 2093;
+		rType = 0;
+		vrLen = 412;
+		vrLoc = 1746;
 	};
 }

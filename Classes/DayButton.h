@@ -14,9 +14,11 @@
 
 @interface DayButton : UIButton {
 	id <DayButtonDelegate> delegate;
+	NSString *date;
 }
 
 @property (nonatomic, assign) id delegate;
+@property (nonatomic, copy) NSString *date;
 
 - (id)initWithText:(NSString *)text withFrame:(CGRect)buttonFrame;
 

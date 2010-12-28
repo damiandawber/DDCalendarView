@@ -10,10 +10,12 @@
 
 
 @implementation DayButton
-@synthesize delegate;
+@synthesize delegate, date;
 
 - (id)initWithText:(NSString *)text withFrame:(CGRect)buttonFrame {
 	self = [DayButton buttonWithType:UIButtonTypeCustom];
+	
+	self.date = @"bobski";
 	
 	self.titleLabel.textAlignment = UITextAlignmentRight;
 	[self setTitle:text forState:UIControlStateNormal];

@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class DDCalendarViewController;
+@class MainViewController;
 
 @interface DDCalendarViewAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	DDCalendarViewController *viewController;
+	MainViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

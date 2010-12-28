@@ -17,6 +17,8 @@
 		43C1C24412C933200066500F /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C24212C933200066500F /* left-arrow.png */; };
 		43C1C24512C933200066500F /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 43C1C24312C933200066500F /* right-arrow.png */; };
 		43C1C2A412C964430066500F /* DayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C2A312C964430066500F /* DayButton.m */; };
+		43C1C35D12C99AEC0066500F /* DDCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C35C12C99AEC0066500F /* DDCalendarView.m */; };
+		43C1C36012C99B260066500F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1C35F12C99B260066500F /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		43C1C24312C933200066500F /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
 		43C1C2A212C964430066500F /* DayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayButton.h; sourceTree = "<group>"; };
 		43C1C2A312C964430066500F /* DayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayButton.m; sourceTree = "<group>"; };
+		43C1C35B12C99AEC0066500F /* DDCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCalendarView.h; sourceTree = "<group>"; };
+		43C1C35C12C99AEC0066500F /* DDCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCalendarView.m; sourceTree = "<group>"; };
+		43C1C35E12C99B260066500F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		43C1C35F12C99B260066500F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* DDCalendarView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DDCalendarView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,7 +61,11 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1D3623240D0F684500981E51 /* DDCalendarViewAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */,
 				43C1C29E12C963670066500F /* DDCalendarView */,
+				43C1C35E12C99B260066500F /* MainViewController.h */,
+				43C1C35F12C99B260066500F /* MainViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -113,12 +123,12 @@
 		43C1C29E12C963670066500F /* DDCalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* DDCalendarViewAppDelegate.h */,
-				1D3623250D0F684500981E51 /* DDCalendarViewAppDelegate.m */,
 				43C1C21512C923680066500F /* DDCalendarViewController.h */,
 				43C1C21612C923680066500F /* DDCalendarViewController.m */,
 				43C1C2A212C964430066500F /* DayButton.h */,
 				43C1C2A312C964430066500F /* DayButton.m */,
+				43C1C35B12C99AEC0066500F /* DDCalendarView.h */,
+				43C1C35C12C99AEC0066500F /* DDCalendarView.m */,
 			);
 			name = DDCalendarView;
 			sourceTree = "<group>";
@@ -189,6 +199,8 @@
 				1D3623260D0F684500981E51 /* DDCalendarViewAppDelegate.m in Sources */,
 				43C1C21712C923680066500F /* DDCalendarViewController.m in Sources */,
 				43C1C2A412C964430066500F /* DayButton.m in Sources */,
+				43C1C35D12C99AEC0066500F /* DDCalendarView.m in Sources */,
+				43C1C36012C99B260066500F /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

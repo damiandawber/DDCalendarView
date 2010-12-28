@@ -77,6 +77,8 @@
 
 - (void)buttonPressed:(id)sender {
 	NSLog(@"might subscribe to Brazzers");
+	DayButton *btn = (DayButton *) sender;
+	NSLog(@"%@", btn.date);
 }
 
 /*
