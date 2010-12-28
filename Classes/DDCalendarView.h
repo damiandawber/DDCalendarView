@@ -7,17 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DayButton.h"
 
-
-@interface DDCalendarView : UIView {
+@interface DDCalendarView : UIView <DayButtonDelegate> {
 	NSString *calendarFontName;
 	float calendarWidth;
 	float calendarHeight;
 	float cellWidth;
 	float cellHeight;
 	UILabel *monthLabel;
+	NSMutableArray *dayButtons;
+	int currentMonth;
+	int currentYear;
+	NSCalendar *calendar;
 }
 
 - (id)initWithFrame:(CGRect)frame fontName:(NSString *)fontName;
+- (void)updateCalendarForMonth:(int)month forYear:(int)year;
+- (void)drawDayButtons;
+- (void)prevBtnPressed:(id)sender;
+- (void)nextBtnPressed:(id)sender;
 
 @end

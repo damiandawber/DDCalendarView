@@ -10,19 +10,17 @@
 
 
 @implementation DayButton
-@synthesize delegate, date;
+@synthesize delegate, buttonDate;
 
-- (id)initWithText:(NSString *)text withFrame:(CGRect)buttonFrame {
+- (id)buttonWithFrame:(CGRect)buttonFrame {
 	self = [DayButton buttonWithType:UIButtonTypeCustom];
 	
-	self.date = @"bobski";
-	
-	self.titleLabel.textAlignment = UITextAlignmentRight;
-	[self setTitle:text forState:UIControlStateNormal];
-	self.backgroundColor = [UIColor blackColor];
 	self.frame = buttonFrame;
+	self.titleLabel.textAlignment = UITextAlignmentRight;
+	self.backgroundColor = [UIColor clearColor];
+	self.titleLabel.textColor = [UIColor lightGrayColor];
 	
-	[self addTarget:delegate action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+	[self addTarget:delegate action:@selector(dayButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
 	
 	return self;
 }

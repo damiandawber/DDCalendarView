@@ -9,17 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @protocol DayButtonDelegate
-- (void)buttonPressed:(id)sender;
+- (void)dayButtonPressed:(id)sender;
 @end
 
 @interface DayButton : UIButton {
 	id <DayButtonDelegate> delegate;
-	NSString *date;
+	NSDate *buttonDate;
 }
 
 @property (nonatomic, assign) id delegate;
-@property (nonatomic, copy) NSString *date;
+@property (nonatomic, copy) NSDate *buttonDate;
 
-- (id)initWithText:(NSString *)text withFrame:(CGRect)buttonFrame;
+- (id)buttonWithFrame:(CGRect)buttonFrame;
 
 @end
